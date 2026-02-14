@@ -108,3 +108,15 @@ print("********************************************************")
 t = [1, 2, 3, 4]
 for i in t:
     print(i)
+print("********************************************************")
+g: int
+soma: int
+
+soma = 0
+g = int(input("Digite o primiero numero: "))
+
+while(g != 0):
+    soma = soma + g
+    g = int(input("Digite o proximo numero: ou digite 0 para parar: "))
+
+print("SOMA = ", soma)
