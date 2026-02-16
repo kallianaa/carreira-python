@@ -120,3 +120,8 @@ while(g != 0):
     g = int(input("Digite o proximo numero: ou digite 0 para parar: "))
 
 print("SOMA = ", soma)
+print("********************************************************")
+o = [1,2,3]
+p = o
+p.append(4)
+print(o)
